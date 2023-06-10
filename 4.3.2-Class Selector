@@ -1,0 +1,42 @@
+
+2.CLASS SELECTOR-A class selector is referred to a CSS Class or simply a class.
+
+NOTE:Class names cannot start witth a number, contain spaces butt can contain hyphens and underscores.
+
+EXAMPLE:External Class Selector
+
+.custom-bg-blue {
+background-color:blue;
+}
+
+.custom-bg-yellow{
+background-color:yellow;
+}
+
+.custom-text-white{
+color:white;
+}
+
+Other Notes:
+
+Make sure to include the dot (.) in front of the class name.
+
+EXAMPLE 2:Inline Class Selector
+
+<p class="custom-bg-blue">
+
+...
+
+</p>
+
+<p class="custom-bg-yellow">
+
+...
+
+</p>
+
+
+<p class="custom-bg-blue custom-text-white">
+...
+</p>
+

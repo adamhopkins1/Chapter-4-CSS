@@ -1,0 +1,46 @@
+CSS PRIORITIES- THE MORE SPECIFIC THE SELECTOR, THE HIGHER PRIORITY IT HAS.
+
+1.ID selectors have more specificity than a class selector.
+
+2.Class selectors have more specificity than an element selector
+
+EXAMPLE:
+
+p {                     (THIRD PRIORITY)
+background-color:blue;
+}
+
+.custom-bg-black {      (SECOND PRIORITY)
+backgroun-color:black;
+}
+
+#main-content {        (MOST PRIORITY)
+background-color:red;
+}
+
+EXAMPLE 2:
+
+<p id="main-content" class="custom-bg-black">
+...
+</p>
+
+RESULT OF EXAMPLE 2: THE BACKGORUND-COLOR RED WILL BE THE COLOR CHOSEN BECAUSE THE ID (#) IS THE MOST SPECIFIC.
+THE CLASS SELECTORS AND THE ELEMENT SELECTOR WILL BE IGNORED BY CSS.
+
+3.If selectors are of equal priority, the one declared last, is selected.
+
+EXAMPLE 3:
+
+p {
+background-color:black;
+}
+
+p {
+background-color:blue;
+}
+
+RESULT OF EXAMPLE 3: BECAUSE THE SELECTOR WITH THE BACKGROUND-COLOR:BLUE WAS THE 2ND HTML SELECTOR
+CSS WILL CHOOSE THE LAST WRITTEN SELECTOR OVER THE FIRST HTML SELECTOR WHICH IS IGNORED.
+
+
+

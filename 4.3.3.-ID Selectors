@@ -1,0 +1,29 @@
+ID SELECTORS-ID selectors are used to target an specific element.
+
+Rules for using ID's
+
+1.Give the target element an ID (#).
+2.Use the ID as a selector in the CSS.
+
+EXAMPLE 1:
+
+<p id="main-content">
+...
+</p>
+
+<p id="secondary-content">
+...
+</p>
+
+Note: An ID cannot start with a number and cannot contain spacces. Hyphens and underscores are allowed and ID's must be unique. Do not give two different elements the same ID.
+
+EXAMPLE 2:
+
+#main-content {
+font-weight:bold;
+}
+
+#secondary-content {
+font-style:italic;
+}
+

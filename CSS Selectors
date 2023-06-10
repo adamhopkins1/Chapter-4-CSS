@@ -1,3 +1,12 @@
 CSS SELECTORS
 
-Element Selectors-A selector is called
+Element Selectors-A Element selector is when an HTML element is used for styling in CSS.
+
+Example of Element Selector:
+
+p{
+color:white;
+background-color:black;
+}
+
+
